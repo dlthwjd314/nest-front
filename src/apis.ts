@@ -1,6 +1,7 @@
 import { EditContact } from './types';
 
-const apiBaseUrl = 'https://jammanbo-contact-server.herokuapp.com/contacts';
+//const apiBaseUrl = 'https://nest-server-test1.herokuapp.com/contacts';
+const apiBaseUrl = 'https://nest-server-test1.herokuapp.com/contacts';
 
 export const getAll = async () => {
   const response = await fetch(apiBaseUrl);
